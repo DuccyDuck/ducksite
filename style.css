@@ -6,21 +6,32 @@
 html, body {
     cursor: url("./cat.png"), default;
 }
-html, body {
-    width:100%;
-    height:100%;
-}
 body {
-    background-color: greenyellow;
+    background-color: rgb(25, 255, 159);
     text-align: center;
 }
 h1 {
     font-family: droid-serif;
+    font-size: 64px;
 }
 @font-face {
     font-family: droid-serif;
     src: url("./droid-serif.regular.ttf");
 }
+@font-face {
+    font-family: similartoyzy;
+    src: url("./TSTAR-W00-Heavy.ttf");
+}
+.bottombar {
+    background-color: black;
+    color: white;
+    font-family: similartoyzy;
+    overflow: hidden;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
+
 .sitemakingprocessimage {
     background-image: url("./cat2.png");
     background-repeat: repeat;
