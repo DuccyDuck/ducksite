@@ -9,7 +9,7 @@ html, body {
   width:100%;
   height:100%;
 }
-.sitemakingprocessimage {    #credit for this goes to dtpls
+.sitemakingprocessimage {
     background-image: url("./cat2.png");
     background-repeat: repeat;
     width: 500px;
@@ -17,10 +17,9 @@ html, body {
     background-color: black;
     animation: move 3s infinite;
     animation-timing-function: linear;
-    text-align: center;
 }
 
-@keyframes move {   #credit for this goes to dtpls
+@keyframes move {
     0% {
         background-position-x: 0px;
         background-position-y: 0px;
