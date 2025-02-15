@@ -1,3 +1,8 @@
+#picardia {
+    float: right;
+    transform: translate(-100px, -430px);
+
+    }
 html {
     cursor: url("./cat.png"), auto;
   }
